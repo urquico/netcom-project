@@ -22,6 +22,9 @@
      cd <project-directory>
      ```
 
+   - Make sure that you are inside `main` branch
+   - run `git pull`
+
    - Create a new branch for your work:
 
      ```bash
@@ -44,7 +47,7 @@
      git commit -m "[Feature][<name>] - <commit message>"
      ```
 
-1. **Push the Branch:**
+2. **Push the Branch:**
 
    - Push your branch to the repository:
 
@@ -52,7 +55,7 @@
      git push origin feature/<your-branch-name>
      ```
 
-1. **Create a Pull Request (PR):**
+3. **Create a Pull Request (PR):**
 
    - Visit the `repository` on GitHub.
    - Switch to your branch in the "Branch" dropdown.
@@ -63,7 +66,7 @@
      [Feature][<name>] - <title>
      ```
 
-1. **Connect PR to Issue:**
+4. **Connect PR to Issue:**
    - If your PR addresses a specific issue, mention "Closes #<issue-number>" in the PR description.
    - This automatically closes the related issue when the PR is merged.
 
